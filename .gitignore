@@ -13,6 +13,7 @@ build/electron
 build/win-unpacked
 build/*.yml
 build/*.yaml
+build/*.zip
 dist
 dist-ssr
 *.local
