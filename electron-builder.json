@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "asar": false,
+  "productName": "StarRail Wish Export",
+  "appId": "org.luhawxem.star-rail-wish-export",
+  "directories": {
+    "output": "build"
+  },
+  "files": ["build/electron", "dist"],
+  "mac": {
+    "target": ["dmg"],
+    "icon": "build/icon.ico",
+    "artifactName": "${productName}.${ext}"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "zip",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "build/icon.ico",
+    "artifactName": "${productName}.${ext}"
+  }
+}

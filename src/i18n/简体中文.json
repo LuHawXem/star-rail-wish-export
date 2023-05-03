@@ -1,0 +1,39 @@
+{
+  "time": "时间",
+  "name": "名称",
+  "type": "类型",
+  "level": "星级",
+  "total": "总抽数",
+  "inside": "保底内",
+  "isPermanent": "歪",
+  "remark": "备注",
+  "fontType": "微软雅黑",
+  "filePrefix": "崩铁跃迁记录",
+  "fileType": "Excel文件",
+  "rank": {
+    "5": "5星",
+    "4": "4星",
+    "3": "3星"
+  },
+  "typeMap": {
+    "1": "常驻跃迁",
+    "2": "新手跃迁",
+    "11": "角色活动跃迁",
+    "12": "光锥活动跃迁"
+  },
+  "winTitle": "崩坏：星穹铁道跃迁记录导出工具",
+  "updateData": "更新数据",
+  "exportExcel": "导出Excel",
+  "addAccount": "添加新账号",
+  "setting": "设置",
+  "languageSetting": "语言设置",
+  "languageChanged": "修改语言设置成功，点击重启程序",
+  "lastUpdate": "上次更新时间",
+  "symbol": "：",
+  "unit": "抽",
+  "allTogether": "一共",
+  "grandTotal": ["已累计", "未出"],
+  "history": "历史记录",
+  "noHistory": "暂无抽卡记录",
+  "developing": "功能开发中"
+}

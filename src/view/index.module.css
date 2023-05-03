@@ -1,0 +1,83 @@
+.wrap {
+  padding: 20px;
+}
+
+.operate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tip {
+  padding-top: 10px;
+}
+
+.gacha {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gacha > .item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.item > .timeline {
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 8px;
+}
+
+.item > .stat {
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.stat > :nth-child(1) {
+  color: #1890ff;
+}
+
+.stat > :nth-last-child(1) {
+  color: #e72a2a;
+}
+
+.item > .rank {
+  /* width: 100%; */
+  padding-bottom: 15px;
+}
+
+.item > .list {
+  width: 100%;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.item > .list > span {
+  font-weight: bolder;
+  padding: 0 2px;
+}
+
+.loading {
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relaunchTip {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 15px 0;
+}
